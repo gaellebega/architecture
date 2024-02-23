@@ -1,0 +1,252 @@
+*{
+text-decoration: none;
+padding: 0;
+margin: 0;
+font-family: Verdana,sans-serif;
+}
+
+body {
+display: flex;
+flex-direction: column;
+
+}
+
+nav {
+background: white;
+height: fit-content;
+width: 100%;
+letter-spacing: 4px;
+position: fixed;
+}
+
+.nav bar{
+background: white;
+position: fixed;
+font-family: Calibri;
+padding-right: 17px;
+padding-left: 17px;
+z-index: 8;
+}
+
+.navdiv {
+display: flex;
+justify-content: space-between;
+color: black;
+}
+
+.logo a {
+font-size: 25px;
+font-weight: 400;
+color: black;
+}
+
+.logo {
+font-style: verdana, sans-serif;
+}
+
+a:hover {
+background-color: rgb(198, 197, 197);
+}
+
+.main {
+background-image: url(architect.jpg);
+background-image: no-repeat;
+width: 1500px;
+height: 800px;
+text-align: center;
+margin-top: 1px;
+
+}
+
+.main1 {
+margin-left: 120px;
+}
+
+.poj {
+padding: 8px;
+border-bottom: 1px solid rgb(188, 187, 187);
+}
+
+.poj {
+font-size: 24px;
+font-weight: 400;
+font-family: "Segoe UI", Arial, sans-serif;
+text-size-adjust: 100%;
+}
+
+.rr {
+display: grid;
+grid-template-columns: 300px 300px 300px 300px;
+column-gap: 14px;
+row-gap: 14px;
+margin: 20px;
+width: 100%;
+}
+
+
+@media  screen and(width:600px) {
+    body{
+        background-color: blue;
+    }
+}
+
+@media screen and (max-width:600px) {
+.box {
+    width: 90%;
+}
+}
+
+
+
+.box{
+display: flex;
+/* position: absolute; */
+margin-top: 0px;
+/* padding: 2%; */
+width: 100%;
+}
+
+.textonimg {
+display: flex;
+margin-top: 0px;
+font-family: sans-serif;
+position: absolute;
+/* justify-content: flex-start; */
+color: white;
+background-color: black;
+padding: 10px;
+}
+
+
+#about {
+margin: 20px;
+}
+
+.box4 {
+float: left;
+width: 200px;
+}
+
+img {
+width: 300px;
+}
+
+
+
+.main2 {
+margin-left: 120px;
+}
+
+.box1 {
+display: block;
+float: left;
+width: 20%;
+padding: 55px;
+padding-left: 10px;
+}
+
+img {
+width: 300px;
+}
+
+.box1 img {
+filter: grayscale(100%);
+}
+
+.p1 {
+    padding-bottom: 2px;
+color: #a4a6a6;
+}
+
+.aboutparagr {
+font-family: sans-serif;
+}
+
+input::placeholder {
+color: black;
+font-size: 18px;
+background-color: rgba(240, 248, 255, 0.363)
+}
+
+input [type=text] {
+padding: 20px;
+margin: 20px;
+width: 80%;
+border-radius: 4px;
+border: 1px solid;
+}
+
+.name {
+padding-bottom: 10px;
+margin-bottom: 10px;
+}
+
+input[type="text" i] {
+padding-block: 8px;
+margin: 0px;
+margin-bottom: 10px;
+padding: 10px;
+width: 99%;
+}
+
+input[type="submit" i] {
+padding-block: 8px;
+margin: 10px;
+width: 20%;
+background-color: black;
+color: white;
+}
+
+.ours {
+background-image: url(map.jpg);
+max-width: 1500px;
+height: 500px;
+}
+
+#contact {
+margin: 20px;
+}
+
+.last {
+display: flex;
+background-color: black;
+color: white;
+width: 100%;
+height: 80px;
+padding-top: 20px;
+display:flex;
+justify-content: center;
+}
+
+.last a {
+color: white;
+text-decoration: underline;
+}
+
+.last p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main b {
+background-color: rgb(62, 60, 60);
+width: 100px;
+}
+
+
+.batton {
+width: 90%;
+display:inline-block;
+padding:8px 80px;
+background-color:rgb(193, 189, 189);
+color:rgb(27, 30, 27);
+border:none;
+margin-left:1px;
+cursor:pointer;
+}
+.bigbox{
+    padding-left:20px;
+
+    
+}
